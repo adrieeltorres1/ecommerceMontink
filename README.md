@@ -24,4 +24,4 @@ Este é um projeto simples de e-commerce desenvolvido com React e Tailwind CSS. 
    npm run dev
 
 ## 🔎 Visualização do Projeto
-![](mockup.png)
+![text](.src/imgs/mockup.png)
