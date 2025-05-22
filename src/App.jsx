@@ -7,8 +7,8 @@ const cores = [
 ];
 
 const imagens = [
-  'src/imgs/camiseta-preta.png',
-  'src/imgs/camiseta-branca.png',
+  '/imgs/camiseta-preta.png',
+  '/imgs/camiseta-branca.png',
 ];
 
 const STORAGE_KEY = 'produto-selecionado';
@@ -62,6 +62,7 @@ export default function EcommerceBasico() {
       <div className="w-full md:w-1/2">
         <div className="border rounded-xl overflow-hidden">
           <img src={imagemPrincipal} alt="Produto" className="w-full h-auto object-cover" />
+          <img src="./imgs/" alt="" />
         </div>
         <div className="flex gap-2 mt-4 overflow-x-auto">
           {imagens.map((img, idx) => (
